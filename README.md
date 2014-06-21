@@ -11,8 +11,24 @@ The function will return the sum of all the multiples of **3** or **5** below **
 
 There are **4** tests, once your tests pass, uncomment the last two and fill in the correct result.
 
-(you'll need jasmine-node)  
-    npm install jasmine-node -g
+(you'll need jasmine-node)
+````
+npm install jasmine-node -g
+````
 
 run automated tests by running  
-    jasmine-node --autotest .
+````
+jasmine-node --autotest .
+````
+
+##OR
+
+use mocha chai
+````
+npm install mocha -g
+npm install chai
+````
+run automated tests by running  
+````
+mocha -w
+````
