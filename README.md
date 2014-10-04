@@ -20,15 +20,3 @@ run automated tests by running
 ````
 jasmine-node --autotest .
 ````
-
-##OR
-
-use mocha chai
-````
-npm install mocha -g
-npm install chai
-````
-run automated tests by running  
-````
-mocha -w
-````
