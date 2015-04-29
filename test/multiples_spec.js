@@ -1,17 +1,17 @@
 var multiples = require("../multiples"); // import the file we are testing
 var chai = require('chai');
-var expect = chai.expect;
+var should = chai.should();
 
-describe("Sum of a Multiple", function () {
+describe("Sum of a Multiple Function", function () {
 
-  it("should return '23' for n=10", function () {
+  it("should return the value 23 if given 10 as an argument", function () {
     var sum = multiples.sumOfAMultiple(10);
-    expect(sum).to.be.equal(23);
+    sum.should.equal(23);
   });
 
   it("should return '2318' for n=100", function () {
     var sum = multiples.sumOfAMultiple(100);
-    expect(sum).to.be.equal(2318);
+    sum.should.equal(2318);
   });
 
   // when your tests pass, uncomment the next two and
@@ -19,12 +19,12 @@ describe("Sum of a Multiple", function () {
   /*
   it("should return 'x' for n=1000 (see multiples-spec.js)", function () {
     var sum = multiples.sumOfAMultiple(1000);
-    expect(sum).toBe(0);
+    sum.should.equal(0);  // CHANGE THE VALUE OF .equal() to the correct number
   });
 
   it("should return 'x' for n=10000 (see multiples-spec.js)", function () {
     var sum = multiples.sumOfAMultiple(10000);
-    expect(sum).toBe(0); // you change this value to the correct sum!
+    sum.should.equal(0); // CHANGE THE VALUE OF .equal() to the correct number
   });
   */
 
