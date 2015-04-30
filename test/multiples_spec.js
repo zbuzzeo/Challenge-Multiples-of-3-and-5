@@ -1,4 +1,4 @@
-var multiples = require("../multiples"); // import the file we are testing
+var multiples = require("./../multiples.js"); // import the file we are testing
 var chai = require('chai');
 var should = chai.should();
 
