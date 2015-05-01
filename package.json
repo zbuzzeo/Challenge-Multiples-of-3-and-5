@@ -4,7 +4,7 @@
   "description": "Euler #001 with tests",
   "main": "multiples.js",
   "scripts": {
-    "test": "mocha -R spec ./test"
+    "test": "mocha --bail --watch"
   },
   "repository": {
     "type": "git",
