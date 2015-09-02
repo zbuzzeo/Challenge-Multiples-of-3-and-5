@@ -20,14 +20,14 @@ describe( 'Sum of a Multiple Function', function() {
   it( 'should return \'x\' for n=1000 (see multiples-spec.js)', function() {
     var sum = multiples.sumOfAMultiple(1000);
 
-    // CHANGE THE VALUE OF .equal() to the correct number
+    // Change the argument given to .equal() to the correct number
     sum.should.equal(0);
   });
 
   it( 'should return \'x\' for n=10000 (see multiples-spec.js)', function() {
     var sum = multiples.sumOfAMultiple(10000);
 
-    // CHANGE THE VALUE OF .equal() to the correct number
+    // Change the argument given to .equal() to the correct number
     sum.should.equal(0);
   });
   */
